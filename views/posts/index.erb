@@ -1,0 +1,9 @@
+<h1>Welcome to the index page!</h1>
+<% @posts.each do |post| %>
+  <div>
+    <h2><%= @header %></h2>
+    <h4><%= post[:firstname] + " " + post[:lastname] %></h4>
+    <p> Age: <%= post[:age] %></p>
+    <p> Email: <%= post[:email] %></p>
+  </div>
+<% end %>
