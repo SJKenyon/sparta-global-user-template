@@ -1,18 +1,34 @@
-# New Resource Lab
-Timings
-90 - 120 Minutes
+# User Controller (ruby lab)
 
-## Summary
-Now that you've finished creating a post resource try to create a separate resource for a user object.
+## Creation
 
-The user should have:
+I created this ruby project without using the scaffolding command in the terminal. It uses a database to make and store user profiles by connecting the controller and view pages in the post folder.
+
+The user needs to have:
 - Email
 - First Name
 - Last Name
 - Age
 
-You can copy and paste. That's perfectly acceptable. Make sure you understand why you're changing the bits you need to change.
+You can edit the users once they have been created and see a list of all users.
 
-Make sure you update the navigation to include your new resource too.
+---
 
-Also make the EDIT and NEW pages as well
+### Cloning
+
+You will need ruby (v 2.5.1) for this calculator to work.
+
+You will also need to run the command:
+```
+bundle
+```
+or
+```
+bundle install
+```
+to use the gems I have in this project.
+
+You will then need to create a database to hold your users on by running:
+```
+rails db:create
+```
